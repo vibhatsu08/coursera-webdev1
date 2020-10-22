@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Udemy Forms Assignment example.</title>
+    </head>
+
+    <body>
+        <h1>Register</h1>
+        <form action="https://google.com">
+            <label for="first_name">First name:
+                <input type="text" id="first_name" required="true">
+            </label>
+            <label for="last_name">Last name:
+                <input type="text" id="last_name" required="true">
+            </label>
+            <br>
+            <label for="male">Male
+                <input type="radio" id="male" name = "gender" checked>
+            </label>
+            <label for="female">female
+                <input type="radio" id="female" name = "gender" checked>
+            </label>
+            <label for="other">other
+                <input type="radio" id = "other" name="gender" checked>
+            </label>
+            <br>
+            <label for="email">Email
+                <input type="email" name="email" id="email" placeholder="name@example.com" required="true">
+            </label>
+            <label for="password">password
+                <input type="password" name="password" id="password" required="true" minlength="5" maxlength="10">
+            </label>
+            <br>
+            <label for="birthday">Birthday
+                <input type="date" name="birthday" id="birthday" required="true">
+            </label>
+            <br>
+            <label for="terms">I agree to all the terms and the conditions.
+                <input type="checkbox" name="terms" id="terms" required="true">
+            </label>
+            <br>
+            <input type="submit" name="submit_button">
+        </form>
+    </body>
+</html>

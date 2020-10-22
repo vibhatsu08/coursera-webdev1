@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using different properties of borders in html.</title>
+        <style>
+            body{
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+            }
+            .d1{
+                background-color: rgb(112, 203, 255);
+                width: 200px;
+                height: 200px;
+                display: block;
+                border-radius: 16px 32px 48px 64px;
+                margin-bottom: 10px;
+            }
+            .d2{
+                background-color: rgb(112, 203, 255);
+                width: 200px;
+                height: 200px;
+                display: block;
+                border-radius: 16px 0px 48px 64px;
+                margin-bottom: 10px;
+            }
+            .d3{
+                background-color: rgb(112, 203, 255);
+                width: 200px;
+                height: 200px;
+                display: block;
+                border-radius: 16px 32px 0px 48px ;
+                margin-bottom: 10px;
+            }
+            .d4{
+                background-color: rgb(112, 203, 255);
+                width: 200px;
+                height: 200px;
+                display: block;
+                border-radius: 0px 32px 48px 64px;
+                margin-bottom: 10px;
+            }
+            .para1{
+                border: 10px solid transparent;
+                padding: 15px;
+                border-image-source: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/geometric-art-by-danielle.jpg);
+                border-image-repeat: round;
+                border-image-width: 20px;
+                border-image-slice: 30;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class = "para1">Hello world, my name is vedant mistry.</p>
+    </body>
+</html>
